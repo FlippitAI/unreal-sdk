@@ -38,7 +38,7 @@
 		"Win64": true,
 		"Linux": false,
 		"LinuxAArch64": false,
-		"Mac": false,
+		"Mac": true,
 		"IOS": false,
 		"Android": false
 	}
