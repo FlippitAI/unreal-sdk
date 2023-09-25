@@ -13,13 +13,12 @@ OpenAI Api Unreal:The OpenAIApi Plugin gives you access to the OpenAI API in Unr
      
 ## Instalation
 
-To get started with the Flippit Unreal SDK, you can clone the repository to your project with the following command:
+To get started with the Flippit Unreal SDK, you can clone the repositories to your project with the following command:
 
 ```bash
 git clone https://github.com/FlippitAI/unreal-sdk.git Plugins/Flippit;git clone https://github.com/gtreshchev/RuntimeAudioImporter.git Plugins/RuntimeAudioImporter;git clone https://github.com/KellanM/OpenAI-Api-Unreal.git Plugins/OpenAIAPI;git clone https://github.com/readyplayerme/rpm-unreal-sdk.git Plugins/ReadyPlayerMe;git clone https://github.com/rdeioris/glTFRuntime.git Plugins/glTFRuntime;
+```
 
-
-- Unreal Engine Version 5.2 
 
 ## Requirements
 
