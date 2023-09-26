@@ -49,7 +49,7 @@ void AFlippitCharacter::Tick(float DeltaTime)
     {
         if (bPlayerInInteractionZone)
         {
-            if (PC->WasInputKeyJustPressed(Key))  
+            if (PC->WasInputKeyJustPressed(HoldKeyToRecord))
             {
                 if (GetWorld() != nullptr && GetWorld()->IsPlayInEditor())
                 {
@@ -64,7 +64,7 @@ void AFlippitCharacter::Tick(float DeltaTime)
                     }
                 }
             }
-            if (PC->WasInputKeyJustReleased(Key)) // Change "E" to "Tab"
+            if (PC->WasInputKeyJustReleased(HoldKeyToRecord)) 
             {
                 if (GetWorld() != nullptr && GetWorld()->IsPlayInEditor())
                 {
@@ -115,7 +115,7 @@ void AFlippitCharacter::EstablishWebSocketConnection()
         const FString CharacterID = characterId; // Replace with your character ID
 
         // Construct the WebSocket URL with the access key and character ID
-        FString ServerURL = FString::Printf(TEXT("wss://ozmcki0ooj.execute-api.eu-west-1.amazonaws.com/production?Authorizer=%s&characterId=%s"), *APIKey, *CharacterID);
+        FString ServerURL = FString::Printf(TEXT("wss://31ygdxeij1.execute-api.eu-west-1.amazonaws.com/production?Authorizer=%s&characterId=%s"), *APIKey, *CharacterID);
 
         // Create the WebSocket instance with the specified URL and headers
         TMap<FString, FString> Headers;

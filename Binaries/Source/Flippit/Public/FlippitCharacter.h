@@ -58,11 +58,11 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		bool bAudioStreamingInProgress = false;
 	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
-		bool Microphone= false;
+		bool UseMicrophone= false;
 	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
-		bool AvatarVoice= false;
+		bool UseVoice= false;
 	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
-		bool TextInteraction= false;
+		bool UseText= false;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		FString animationKeys;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
@@ -76,7 +76,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		FString audioByte;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction Configuration")
-		FKey Key;
+		FKey HoldKeyToRecord;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		TArray<USoundWave*> SoundWaveArray;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)

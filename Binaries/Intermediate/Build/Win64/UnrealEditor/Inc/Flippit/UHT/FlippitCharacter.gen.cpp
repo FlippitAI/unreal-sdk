@@ -1207,20 +1207,20 @@ void EmptyLinkFunctionForGeneratedCodeFlippitCharacter() {}
 		static void NewProp_bAudioStreamingInProgress_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_bAudioStreamingInProgress;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Microphone_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_UseMicrophone_MetaData[];
 #endif
-		static void NewProp_Microphone_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_Microphone;
+		static void NewProp_UseMicrophone_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_UseMicrophone;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_AvatarVoice_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_UseVoice_MetaData[];
 #endif
-		static void NewProp_AvatarVoice_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_AvatarVoice;
+		static void NewProp_UseVoice_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_UseVoice;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_TextInteraction_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_UseText_MetaData[];
 #endif
-		static void NewProp_TextInteraction_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_TextInteraction;
+		static void NewProp_UseText_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_UseText;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_animationKeys_MetaData[];
 #endif
@@ -1246,9 +1246,9 @@ void EmptyLinkFunctionForGeneratedCodeFlippitCharacter() {}
 #endif
 		static const UECodeGen_Private::FStrPropertyParams NewProp_audioByte;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Key_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_HoldKeyToRecord_MetaData[];
 #endif
-		static const UECodeGen_Private::FStructPropertyParams NewProp_Key;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_HoldKeyToRecord;
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_SoundWaveArray_Inner;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_SoundWaveArray_MetaData[];
@@ -1410,38 +1410,38 @@ void EmptyLinkFunctionForGeneratedCodeFlippitCharacter() {}
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_bAudioStreamingInProgress = { "bAudioStreamingInProgress", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AFlippitCharacter), &Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_bAudioStreamingInProgress_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_bAudioStreamingInProgress_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_bAudioStreamingInProgress_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Microphone_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseMicrophone_MetaData[] = {
 		{ "Category", "Interaction Configuration" },
 		{ "ModuleRelativePath", "Public/FlippitCharacter.h" },
 	};
 #endif
-	void Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Microphone_SetBit(void* Obj)
+	void Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseMicrophone_SetBit(void* Obj)
 	{
-		((AFlippitCharacter*)Obj)->Microphone = 1;
+		((AFlippitCharacter*)Obj)->UseMicrophone = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Microphone = { "Microphone", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AFlippitCharacter), &Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Microphone_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Microphone_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Microphone_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseMicrophone = { "UseMicrophone", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AFlippitCharacter), &Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseMicrophone_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseMicrophone_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseMicrophone_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AvatarVoice_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseVoice_MetaData[] = {
 		{ "Category", "Interaction Configuration" },
 		{ "ModuleRelativePath", "Public/FlippitCharacter.h" },
 	};
 #endif
-	void Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AvatarVoice_SetBit(void* Obj)
+	void Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseVoice_SetBit(void* Obj)
 	{
-		((AFlippitCharacter*)Obj)->AvatarVoice = 1;
+		((AFlippitCharacter*)Obj)->UseVoice = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AvatarVoice = { "AvatarVoice", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AFlippitCharacter), &Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AvatarVoice_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AvatarVoice_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AvatarVoice_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseVoice = { "UseVoice", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AFlippitCharacter), &Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseVoice_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseVoice_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseVoice_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_TextInteraction_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseText_MetaData[] = {
 		{ "Category", "Interaction Configuration" },
 		{ "ModuleRelativePath", "Public/FlippitCharacter.h" },
 	};
 #endif
-	void Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_TextInteraction_SetBit(void* Obj)
+	void Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseText_SetBit(void* Obj)
 	{
-		((AFlippitCharacter*)Obj)->TextInteraction = 1;
+		((AFlippitCharacter*)Obj)->UseText = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_TextInteraction = { "TextInteraction", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AFlippitCharacter), &Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_TextInteraction_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_TextInteraction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_TextInteraction_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseText = { "UseText", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AFlippitCharacter), &Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseText_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseText_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseText_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_animationKeys_MetaData[] = {
 		{ "Category", "avatar" },
@@ -1485,12 +1485,12 @@ void EmptyLinkFunctionForGeneratedCodeFlippitCharacter() {}
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_audioByte = { "audioByte", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AFlippitCharacter, audioByte), METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_audioByte_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_audioByte_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Key_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_HoldKeyToRecord_MetaData[] = {
 		{ "Category", "Interaction Configuration" },
 		{ "ModuleRelativePath", "Public/FlippitCharacter.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AFlippitCharacter, Key), Z_Construct_UScriptStruct_FKey, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Key_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Key_MetaData)) }; // 2101135134
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_HoldKeyToRecord = { "HoldKeyToRecord", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AFlippitCharacter, HoldKeyToRecord), Z_Construct_UScriptStruct_FKey, METADATA_PARAMS(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_HoldKeyToRecord_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_HoldKeyToRecord_MetaData)) }; // 2101135134
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_SoundWaveArray_Inner = { "SoundWaveArray", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UClass_USoundWave_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_SoundWaveArray_MetaData[] = {
@@ -1529,16 +1529,16 @@ void EmptyLinkFunctionForGeneratedCodeFlippitCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Connected,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Streaming,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_bAudioStreamingInProgress,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Microphone,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AvatarVoice,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_TextInteraction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseMicrophone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseVoice,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_UseText,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_animationKeys,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_destinationkey,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AWSSecretKey,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_AWSKey,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_OpenAIKey,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_audioByte,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_Key,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_HoldKeyToRecord,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_SoundWaveArray_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_SoundWaveArray,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippitCharacter_Statics::NewProp_BoxCollisionComponent,
@@ -1583,9 +1583,9 @@ void EmptyLinkFunctionForGeneratedCodeFlippitCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dhia_Documents_Unreal_Projects_MyProject2_Plugins_Flippit_Source_Flippit_Public_FlippitCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AFlippitCharacter, AFlippitCharacter::StaticClass, TEXT("AFlippitCharacter"), &Z_Registration_Info_UClass_AFlippitCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFlippitCharacter), 4044444287U) },
+		{ Z_Construct_UClass_AFlippitCharacter, AFlippitCharacter::StaticClass, TEXT("AFlippitCharacter"), &Z_Registration_Info_UClass_AFlippitCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFlippitCharacter), 3939528180U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dhia_Documents_Unreal_Projects_MyProject2_Plugins_Flippit_Source_Flippit_Public_FlippitCharacter_h_4075446526(TEXT("/Script/Flippit"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dhia_Documents_Unreal_Projects_MyProject2_Plugins_Flippit_Source_Flippit_Public_FlippitCharacter_h_1481430416(TEXT("/Script/Flippit"),
 		Z_CompiledInDeferFile_FID_Users_dhia_Documents_Unreal_Projects_MyProject2_Plugins_Flippit_Source_Flippit_Public_FlippitCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dhia_Documents_Unreal_Projects_MyProject2_Plugins_Flippit_Source_Flippit_Public_FlippitCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
