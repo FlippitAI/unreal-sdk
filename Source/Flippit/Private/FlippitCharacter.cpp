@@ -49,7 +49,7 @@ void AFlippitCharacter::Tick(float DeltaTime)
     {
         if (bPlayerInInteractionZone)
         {
-            if (PC->WasInputKeyJustPressed(Key))  
+            if (PC->WasInputKeyJustPressed(HoldKeyToRecord))
             {
                 if (GetWorld() != nullptr && GetWorld()->IsPlayInEditor())
                 {
@@ -64,7 +64,7 @@ void AFlippitCharacter::Tick(float DeltaTime)
                     }
                 }
             }
-            if (PC->WasInputKeyJustReleased(Key)) // Change "E" to "Tab"
+            if (PC->WasInputKeyJustReleased(HoldKeyToRecord)) 
             {
                 if (GetWorld() != nullptr && GetWorld()->IsPlayInEditor())
                 {
