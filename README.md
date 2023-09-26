@@ -1,7 +1,8 @@
 # unreal-sdk
 
 Please visit the online documentation and join our public discord community.
-[Documentation] (notion url)
+
+[Documentation] (https://www.notion.so/flippitai/Unreal-SDK-WIP-c44d9ddbbeb94a72b15be3e174e49c1a)
 
 ## Dependencies
 
