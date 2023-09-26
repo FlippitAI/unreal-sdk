@@ -1,8 +1,0 @@
-{
-	"BuildId": "25360045",
-	"Modules": 
-	{
-		"Flippit": "UnrealEditor-Flippit-Win64-DebugGame.dll",
-		"FlippitEditor": "UnrealEditor-FlippitEditor-Win64-DebugGame.dll"
-	}
-}
