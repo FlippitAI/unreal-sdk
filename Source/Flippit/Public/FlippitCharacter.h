@@ -33,7 +33,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 public:
 	// Sets default values for this actor's properties
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatr")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		FString glbURL = FString();
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		FString characterId = FString();
@@ -57,6 +57,12 @@ public:
 		bool Streaming = false;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		bool bAudioStreamingInProgress = false;
+	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
+		bool Microphone= false;
+	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
+		bool AvatarVoice= false;
+	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
+		bool TextInteraction= false;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		FString animationKeys;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
@@ -69,6 +75,8 @@ public:
 		FString OpenAIKey;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		FString audioByte;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction Configuration")
+		FKey Key;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		TArray<USoundWave*> SoundWaveArray;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)

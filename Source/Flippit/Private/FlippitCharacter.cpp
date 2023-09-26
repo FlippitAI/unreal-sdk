@@ -49,11 +49,11 @@ void AFlippitCharacter::Tick(float DeltaTime)
     {
         if (bPlayerInInteractionZone)
         {
-            if (PC->WasInputKeyJustPressed(EKeys::Tab)) // Change "E" to "Tab"
+            if (PC->WasInputKeyJustPressed(Key))  
             {
                 if (GetWorld() != nullptr && GetWorld()->IsPlayInEditor())
                 {
-                    UFunction* fm = FindFunction(FName(TEXT("Pressedd")));
+                    UFunction* fm = FindFunction(FName(TEXT("Pressed")));
                     if (fm)
                     {
                         ProcessEvent(fm, (void*)nullptr);
@@ -64,11 +64,11 @@ void AFlippitCharacter::Tick(float DeltaTime)
                     }
                 }
             }
-            if (PC->WasInputKeyJustReleased(EKeys::Tab)) // Change "E" to "Tab"
+            if (PC->WasInputKeyJustReleased(Key)) // Change "E" to "Tab"
             {
                 if (GetWorld() != nullptr && GetWorld()->IsPlayInEditor())
                 {
-                    UFunction* fm = FindFunction(FName(TEXT("Releaseed")));
+                    UFunction* fm = FindFunction(FName(TEXT("Released")));
                     if (fm)
                     {
 

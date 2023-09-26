@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FlippitEditor.cpp.obj": [
+			"FlippitEditor.cpp.obj",
+			"FlippitEditorCommands.cpp.obj",
+			"FlippitEditorStyle.cpp.obj"
+		]
+	}
+}
