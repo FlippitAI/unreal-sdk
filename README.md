@@ -1,20 +1,21 @@
-# unreal-sdk
+# Flippit SDK - Unreal - Installation steps
 
-Please visit the online documentation and join our public discord community.
+Please visit our [Online Documentation](https://www.notion.so/flippitai/Unreal-SDK-WIP-c44d9ddbbeb94a72b15be3e174e49c1a) for more details about the SDK capabilities.
 
-[Documentation](https://www.notion.so/flippitai/Unreal-SDK-WIP-c44d9ddbbeb94a72b15be3e174e49c1a)
 
 ## Dependencies
 
-Ready Player Me Unreal SDK:This is an open source Unreal Engine plugin that contains all the core functionality required for loading and displaying avatars.:  The plugin can be found on [GitHub here](https://github.com/readyplayerme/rpm-unreal-sdk/),      
-RuntimeAudioImporter:Importing audio of various formats at runtime:  The plugin can be found on [GitHub here](https://github.com/gtreshchev/RuntimeAudioImporter/), also can be found on the Marketplace
+- Ready Player Me Unreal SDK: This is an open-source Unreal Engine plugin that contains all the core functionality required for loading and displaying avatars. The plugin can be found on their [GitHub](https://github.com/readyplayerme/rpm-unreal-sdk/)
+- RuntimeAudioImporter: This plugin imports audio of various formats at runtime. It can be found on this [GitHub](https://github.com/gtreshchev/RuntimeAudioImporter/) or on the Unreal Marketplace
      
-OpenAI Api Unreal:The OpenAIApi Plugin gives you access to the OpenAI API in Unreal Engine:  The plugin can be found on [GitHub here](https://github.com/KellanM/OpenAI-Api-Unreal), also can be found on the Marketplace
+- OpenAI Api Unreal: This plugin is used to enable Speech-to-Text within your game. The plugin can be found on this [GitHub](https://github.com/KellanM/OpenAI-Api-Unreal) or on the Unreal Marketplace
      
-## Instalation
-To get started with the Flippit Unreal SDK, you can clone the repositories to your project with the following command:
+## Installation
+To get started with the Flippit Unreal SDK, got to your project repository and run the following command:
 ```bash
 git clone https://github.com/FlippitAI/unreal-sdk.git Plugins/Flippit;git clone https://github.com/gtreshchev/RuntimeAudioImporter.git Plugins/RuntimeAudioImporter;git clone https://github.com/KellanM/OpenAI-Api-Unreal.git Plugins/OpenAIAPI;git clone https://github.com/readyplayerme/rpm-unreal-sdk.git Plugins/ReadyPlayerMe;git clone https://github.com/rdeioris/glTFRuntime.git Plugins/glTFRuntime;
 ```
+This will install all the dependencies required by Flippit.
+
 ## Requirements
-- Unreal Engine Version 5.2 
+- Unreal Engine Version: 5.2 +
