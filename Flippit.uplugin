@@ -20,7 +20,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PreLoadingScreen",
 			"WhitelistPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac"
 			]
 
 		},
@@ -29,18 +30,11 @@
 			"Type": "Editor",
 			"LoadingPhase": "Default",
 			"WhitelistPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac"
 
 			]
 		}
-	],
-	"Platforms": {
-		"Win64": true,
-		"Linux": false,
-		"LinuxAArch64": false,
-		"Mac": true,
-		"IOS": false,
-		"Android": false
-	}
+	]
 
 }
