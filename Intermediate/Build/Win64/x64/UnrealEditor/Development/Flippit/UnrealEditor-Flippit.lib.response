@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-Flippit.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\x64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
-"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flippit\Module.Flippit.cpp.obj"
-"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flippit\Default.rc2.res"
-/OUT:"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flippit\UnrealEditor-Flippit.lib"
+"C:\Users\dhia\Documents\Unreal Projects\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flippit\Module.Flippit.cpp.obj"
+"C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flippit\Default.rc2.res"
+/OUT:"C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flippit\UnrealEditor-Flippit.lib"

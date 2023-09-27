@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FlippitEditor-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\x64\MyProject2Editor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Module.FlippitEditor.cpp.obj"
+"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Default.rc2.res"
+/OUT:"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\UnrealEditor-FlippitEditor-Win64-DebugGame.lib"

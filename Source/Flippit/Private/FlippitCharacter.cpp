@@ -12,7 +12,6 @@
 #include "GameFramework/CharacterMovementComponent.h" // Include for UCharacterMovementComponent
 #include "Serialization/JsonSerializer.h"
 #include "Dom/JsonObject.h"
-#include "FileHelpers.h"
 #include "Misc/FileHelper.h"
 #include "AudioMixerBlueprintLibrary.h"
 #include "Sound/SoundWave.h"
@@ -557,10 +556,12 @@ void AFlippitCharacter::LogNamesOfAllObjectsInLevel()
         // Iterate through the actors and log their Outliner names
         for (AActor* Actor : LevelActors)
         {
-            FString OutlinerName = Actor->GetActorLabel();
+            FString OutlinerName = Actor->GetActorNameOrLabel();
+            UE_LOG(LogTemp, Warning, TEXT("Outliner Name: %s"), *OutlinerName);
         }
     }
 }
+
 
 
 FVector AFlippitCharacter::GetLocationOfActorByName(const FString& ActorNameToFind)
@@ -584,7 +585,7 @@ FVector AFlippitCharacter::GetLocationOfActorByName(const FString& ActorNameToFi
         for (AActor* Actor : LevelActors)
         {
             // Check if the actor's name contains ActorNameToFind (case insensitive)
-            FString ActorName = Actor->GetActorLabel();
+            FString ActorName = Actor->GetActorNameOrLabel();
             if (ActorName.Contains(ActorNameToFind, ESearchCase::IgnoreCase))
             {
                 // Skip the actor if it's at the character's location or it's the last visited actor

@@ -26,7 +26,6 @@ public class Flippit : ModuleRules
     new string[]
     {
         "Core",
-        "FlippitEditor",
         "WebSockets",
         "AIModule",
         "NavigationSystem",
@@ -44,7 +43,6 @@ public class Flippit : ModuleRules
         "Engine",
         "Slate",
         "SlateCore",
-        "FlippitEditor",
         "WebSockets",
         "HTTP", // Add HTTP module here
         "Json",

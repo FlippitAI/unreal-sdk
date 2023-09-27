@@ -1,6 +1,6 @@
-"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Module.FlippitEditor.cpp"
+"C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Module.FlippitEditor.cpp"
 /I .
-/I "C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Source\FlippitEditor\Private"
+/I "C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Source\FlippitEditor\Private"
 /I Runtime\Projects\Public
 /I Runtime
 /I Runtime\TraceLog\Public
@@ -273,11 +273,11 @@
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AIModule\UHT
 /I Runtime\AIModule\Public
 /I Runtime\AIModule\Classes
-/I "C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\UnrealEditor\Inc\Flippit\UHT"
-/I "C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Source"
-/I "C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Source\Flippit\Public"
-/I "C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Source\FlippitEditor\Public"
+/I "C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Intermediate\Build\Win64\UnrealEditor\Inc\Flippit\UHT"
+/I "C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Source"
+/I "C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Source\Flippit\Public"
 /I Runtime\Online\WebSockets\Public
+/I "C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Source\FlippitEditor\Public"
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -287,12 +287,12 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\x64\MyProject2Editor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.InclOrderUnreal5_1.h"
-/FI"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Definitions.FlippitEditor.h"
-/Yu"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\x64\MyProject2Editor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\x64\MyProject2Editor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Module.FlippitEditor.cpp.obj"
-/sourceDependencies "C:\Users\dhia\Documents\Unreal Projects\MyProject2\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Module.FlippitEditor.cpp.dep.json"
+/FI"C:\Users\dhia\Documents\Unreal Projects\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Definitions.FlippitEditor.h"
+/Yu"C:\Users\dhia\Documents\Unreal Projects\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"C:\Users\dhia\Documents\Unreal Projects\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Module.FlippitEditor.cpp.obj"
+/sourceDependencies "C:\Users\dhia\Documents\Unreal Projects\MyProject\Plugins\Flippit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FlippitEditor\Module.FlippitEditor.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

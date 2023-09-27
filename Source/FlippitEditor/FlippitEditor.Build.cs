@@ -26,9 +26,7 @@ public class FlippitEditor : ModuleRules
 			new string[]
 			{
 				"Core",
-				"Flippit",
                 "Json",
-                "UnrealEd",
 
 
 				// ... add other public dependencies that you statically link with here ...
@@ -49,7 +47,7 @@ public class FlippitEditor : ModuleRules
 				"Slate",
 				"SlateCore",
                 "HTTP",
-				"Flippit",
+                "Flippit",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
