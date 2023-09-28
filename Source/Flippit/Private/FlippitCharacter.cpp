@@ -425,9 +425,11 @@ void AFlippitCharacter::PlaySoundsSequentially()
 
                 // Play the sound
                 UGameplayStatics::PlaySound2D(GetWorld(), SoundToPlay);
-
-                // Set a timer to call PlaySoundsSequentially again after the current sound finishes
-                float SoundDuration = SoundToPlay->Duration;
+                
+                     
+                
+                
+                float SoundDuration = SoundToPlay->Duration + 0.22;
                 FTimerDelegate TimerDelegate;
                 TimerDelegate.BindUFunction(this, FName("PlaySoundsSequentially"));
                 GetWorld()->GetTimerManager().SetTimer(SoundFinishedHandle, TimerDelegate, SoundDuration, false);

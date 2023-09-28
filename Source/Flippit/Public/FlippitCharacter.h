@@ -58,11 +58,11 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		bool bAudioStreamingInProgress = false;
 	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
-		bool UseMicrophone= false;
+		bool UseMicrophone= true;
 	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
-		bool UseVoice= false;
+		bool UseVoice= true;
 	UPROPERTY(EditAnywhere , BlueprintReadWrite, Category = "Interaction Configuration")
-		bool UseText= false;
+		bool UseText= true;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		FString animationKeys;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
@@ -76,7 +76,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		FString audioByte;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction Configuration")
-		FKey HoldKeyToRecord;
+		FKey HoldKeyToRecord=EKeys::Tab;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "avatar")
 		TArray<USoundWave*> SoundWaveArray;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -94,7 +94,7 @@ public:
 	bool bPlayerInCollisionZone;
     bool notIn;  
     bool audioishere;
-    bool hello;
+    bool hello; 
 	int32 CurrentIndex;
 	FTimerHandle SoundFinishedHandle; // Declare the timer handle
 	TSet<USoundWave*> PlayedSounds; // Declare the set to track played sounds
