@@ -429,7 +429,7 @@ void AFlippitCharacter::PlaySoundsSequentially()
                      
                 
                 
-                float SoundDuration = SoundToPlay->Duration + 0.22;
+                float SoundDuration = SoundToPlay->Duration + 0.23;
                 FTimerDelegate TimerDelegate;
                 TimerDelegate.BindUFunction(this, FName("PlaySoundsSequentially"));
                 GetWorld()->GetTimerManager().SetTimer(SoundFinishedHandle, TimerDelegate, SoundDuration, false);
