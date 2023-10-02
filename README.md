@@ -19,7 +19,7 @@ This will install all the dependencies required by Flippit.
 
 Then Generate Visual Studio Files: 
 
-Go back to your project folder and find the Unreal Engine project file (with the name of your project). 
+Go  to your project folder and find the Unreal Engine project file (with the name of your project). 
 Right-click on this file and look for an option called "Generate Visual Studio Files." Click on it and wait for the process to complete. 
 
 Open your Project a window will appear for build accept the process and wait 
