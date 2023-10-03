@@ -18,10 +18,11 @@
 		{
 			"Name": "Flippit",
 			"Type": "Runtime",
-			"LoadingPhase": "PreLoadingScreen",
+			"LoadingPhase": "Default",
 			"WhitelistPlatforms": [
 				"Win64",
-				"Mac"
+				"Mac",
+				"Linux"
 			]
 
 		},
@@ -31,7 +32,8 @@
 			"LoadingPhase": "Default",
 			"WhitelistPlatforms": [
 				"Win64",
-				"Mac"
+				"Mac",
+				"Linux"
 
 			]
 		}
