@@ -17,13 +17,16 @@ git clone https://github.com/FlippitAI/unreal-sdk.git Plugins/Flippit;git clone 
 ```
 This will install all the dependencies required by Flippit.
 
-Then Generate Visual Studio Files: 
+Then Generate Visual Studio Files:
+
+**ON WINDOWS:**  
 
 - Close your project if opened
 - Go to your project folder and find the Unreal Engine project file (i.e., project-name.uproject). 
-- Right-click on this file and look for an option called "Generate Visual Studio Files" (Windows) or "Open with > UE4EditorServices"(Mac).
+- Right-click on this file and look for an option called "Generate Visual Studio Files" (Windows)
 - A pop-up may appear asking to install missing modules. Press yes and wait for the process to complete.
 - The project will open itself automatically.
+
 
 ## Requirements
 - Unreal Engine Version: 5.2 +
